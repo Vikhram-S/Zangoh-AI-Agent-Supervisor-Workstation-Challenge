@@ -53,5 +53,14 @@ supervisor-challenge/
 ├── docker-compose.yml          # Docker Compose configuration
 └── README.md
 ```
+```
+| Challenge                                                   | Solution                                                                       |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Real-time data simulation**                               | Implemented WebSocket events and dummy data streams to simulate live metrics.  |
+| **Maintaining chat context during supervisor intervention** | Used session-based state management with conversation IDs.                     |
+| **Limited time for backend deployment**                     | Built a mock API layer using JSON Server for rapid prototyping.                |
+| **UI complexity for multiple roles**                        | Simplified user flows with clear role-based access and color-coded interfaces. |
+| **Variable substitution clarity**                           | Added real-time preview and tooltips in config panel before saving values.     |
+```
 
 
